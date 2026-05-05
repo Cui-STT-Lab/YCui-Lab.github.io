@@ -9,12 +9,17 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Cui / PhD"
-title_separator          : "-"
-name                     : &name "Yuehua"
-description              : &description "personal description"
-url                      : https://Cui-STT-Lab.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+title:                   "Cui STT Lab"
+email:                   "cuiy at msu dot edu"  # optional
+description:             "Research in spatial transcriptomics and computational biology"
+url:                     "https://Cui-STT-Lab.github.io"  # your GitHub Pages URL
+baseurl:                 ""  # leave empty for a personal site
+theme:                   minima  # or any Jekyll theme you prefer
+#title                    : "Cui / PhD"
+#title_separator          : "-"
+#name                     : &name "Yuehua"
+#url                      : https://Cui-STT-Lab.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+#baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
